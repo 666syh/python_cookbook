@@ -7,3 +7,6 @@ p = (1,2)
 x, y = p
 print(x, y)
 
+data = ['Bob', 50, 91.1, (2019, 7, 10)]
+name, shares, price, (year, month, day) = data
+print(name, shares, price, year, month, day)
